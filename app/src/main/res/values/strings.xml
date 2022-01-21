@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">looogin</string>
+    <string name="bienvenue">Bienvenue !</string>
+    <string name="choix">Vous etes...</string>
+    <string name="etud">Etudiant</string>
+    <string name="prof">Professeur</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="Welcome">Welcome</string>
+    <string name="button">Se connecter</string>
+    <string name="message">Code scanné avec succès</string>
+    <string name="messagee">Prenez place svp</string>
+    <string name="button_quit">Quitter</string>
+    <string name="qr_code">qr_code</string>
+    <string name="enter_your_info">Enter your info</string>
+    <string name="generate_qr_code">Generate QR Code</string>
+</resources>
