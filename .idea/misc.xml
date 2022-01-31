@@ -4,16 +4,44 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/custom_input.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/custom_lock_icon.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/custom_user_icon.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/cut_colors.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/ic_baseline_cloud_download_24.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/ic_baseline_supervised_user_circle_24.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/ic_home.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/ic_list.xml" value="0.19814814814814816" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/ic_lock.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/ic_lock_focused.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/ic_person.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/ic_person_focused.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/ic_widgets.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/password_icone.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/round_arrow_forward_24.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/drawable/user_icone.xml" value="0.19814814814814816" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_dashboard.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_download_scan.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_email.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_home.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_home_page.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_info.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_login_etud.xml" value="0.25" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_login_prof.xml" value="0.1703125" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_main.xml" value="0.17395833333333333" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_main2.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_main3.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_main4.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_main7.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_main_dashboard.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_prof.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_scan.xml" value="0.1" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_signup_etud.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/activity_signup_prof.xml" value="0.1703125" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/etudiant_item.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/looogin/app/src/main/res/layout/etudiant_profiel.xml" value="0.18802083333333333" />
       </map>
     </option>
   </component>

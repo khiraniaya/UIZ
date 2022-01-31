@@ -8,10 +8,13 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 public class login_prof extends AppCompatActivity {
-
-    Button btnsignin3;
+    EditText username, password;
+    Button btnlogin, btnregister;
+    DBHelperprof DB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,21 +26,44 @@ public class login_prof extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_prof);
 
-        btnsignin3 = (Button) findViewById(R.id.btnsignin3);
-        btnsignin3.setOnClickListener(new View.OnClickListener() {
+        username = (EditText) findViewById(R.id.user_name);
+        password = (EditText) findViewById(R.id.user_password);
+        btnlogin = (Button) findViewById(R.id.button2);
+        btnregister = (Button) findViewById(R.id.button1);
+        DB = new DBHelperprof(this);
+
+        btnlogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                String user = username.getText().toString();
+                String pass = password.getText().toString();
+
+                if (user.equals("") || pass.equals(""))
+                    Toast.makeText(login_prof.this, "Please enter all the fields", Toast.LENGTH_SHORT).show();
+                else {
+                    Boolean checkuserpass = DB.checkusernamepassword(user, pass);
+                    if (checkuserpass == true) {
+                        Toast.makeText(login_prof.this, "Sign in successfull", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(getApplicationContext(), MainActivity_dashboard.class);
+                        startActivity(intent);
+                    } else {
+                        Toast.makeText(login_prof.this, "Invalid Credentials", Toast.LENGTH_SHORT).show();
+                    }
+                }
+            }
+        });
+       btnregister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                openActivity5();
+                openActivity2();
             }
         });
-
-
-
     }
 
-    public void openActivity5() {
-        Intent intent = new Intent(this,Dashboard.class);
+    public void openActivity2() {
+        Intent intent = new Intent(this, signup_prof.class);
         startActivity(intent);
     }
 }
